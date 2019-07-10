@@ -27,3 +27,7 @@ The prototype built in the project will be used in other entertainment projects 
   b. Select the Interfacing Options.
   c. Enable the camera
   
+# Running Camera streamer
+1. python3 rpi_camera_surveillance_system.py
+2. http:localhost:8000/ 
+  
