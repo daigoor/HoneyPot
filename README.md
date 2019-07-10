@@ -5,13 +5,25 @@ We have enough hardware to make: **A vehicle controlled by a mounted raspberry p
 
 The raspberry will have a server (PHP) with a simple web interface to send commands and receive video stream. The commands sent are translated by the server to GPIO signals to controls the motors.
 
-Important note:
+# Important note:
 The prototype built in the project will be used in other entertainment projects designed by "you". 
 
-suggestions:
+# suggestions:
 1. Making a VR Laser Tag War.
 2. Use Bot over robot so he can interact with voice and answer it.
 
-!ISSUES 
+# !ISSUES 
 1. Fix permission of gpiomem to be rootless access in order to work with python
 2. Install vlc-nox to run the RTMP server
+
+# Run Steps [Reboot Required]
+1. Enable RPi camera module using GUI:
+  a. Start Menu -> Raspberry Pi Configuration
+  b. Interfaces Tab 
+  c. Enable Camera
+  
+2. Terminal
+  a. sudo raspi-config
+  b. Select the Interfacing Options.
+  c. Enable the camera
+  
